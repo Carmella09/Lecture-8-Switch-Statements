@@ -2,6 +2,91 @@
 
 Switch Statement
 
+ Simple Calculator 
+
+      #include <iostream>
+    using namespace std;
+    int main()
+    {
+        int a, b;
+        cout << "Enter two numbers" << endl;
+        cin >> a >> b;
+        cout << "Pick a calculation" << endl;
+        cout << "1: Addition\n2: Subtraction\n3: Multiplication\n4: Division" << endl;
+        int input; 
+        cin >> input;
+          switch (input) {
+          case 1:
+              cout << (a + b);
+              break;
+          case 2:
+              cout << (a - b) << endl;
+              break;
+          case 3: 
+              cout << (a * b) << endl;
+              break;
+          case 4:
+              cout << (a / b) << endl;
+              break;
+          default:
+              cout << "Invalid Input\n";
+          }
+      }
+
+
+  Grouping Cases
+
+        #include <iostream>
+      using namespace std;
+      int main()
+      {
+          cout << "Would you like sugar?" << endl;
+          char input;
+          cin >> input;
+
+          switch (input) {
+          case 'Y':
+          case 'y':
+              cout << "Adding sugar..." << endl;
+              break;
+          case 'N':
+          case 'n':
+              cout << "No sugar requested..." << endl;
+              break;
+          default:
+              cout << "That input was not recodgnised" << endl;
+
+          }
+      }
+
+
+Continue? (Gameplay)
+
+      #include <iostream>
+    using namespace std;
+    int main()
+    {
+        cout << "Would you like to continue? (Y/N): " << endl;
+        char input;
+        cin >> input;
+
+        switch (input) {
+        case 'Y':
+        case 'y':
+            cout << "Continuing the game" << endl;
+            break;
+        case 'N':
+        case 'n':
+            cout << "Going back to the main lobby" << endl;
+            break;
+        default:
+            cout << "What? Please Try again" << endl;
+            cin.get(); 
+        }
+    }
+
+
+
    Days in Months
 
     #include <iostream>
@@ -56,33 +141,8 @@ Switch Statement
     }
 
 
-   Continue? (Gameplay)
-
-      #include <iostream>
-    using namespace std;
-    int main()
-    {
-        cout << "Would you like to continue? (Y/N): " << endl;
-        char input;
-        cin >> input;
-
-        switch (input) {
-        case 'Y':
-        case 'y':
-            cout << "Continuing the game" << endl;
-            break;
-        case 'N':
-        case 'n':
-            cout << "Going back to the main lobby" << endl;
-            break;
-        default:
-            cout << "What? Please Try again" << endl;
-            cin.get(); 
-        }
-    }
-
-
-   Fuel (Face to Face Group)
+ 
+   Fuel me up (Face to Face Group)
 
       #include <iostream>
     using namespace std;
@@ -138,7 +198,7 @@ Switch Statement
     }
 
 
-  Switch Temperature (Face to Face Group) version
+  Switching Temperature (Face to Face Group) version
 
       #include <iostream>
     using namespace std;
@@ -181,7 +241,12 @@ Switch Statement
     }
 
 
-   Switch Temperature (Online By myself) version (1)
+
+Bonus Exercise: Switch Grade Calculator
+
+
+
+   Switching Temperature (Online By myself) version (1)
 
       #include <iostream>
     using namespace std;
@@ -210,7 +275,7 @@ Switch Statement
     }
 
 
-   Switch Temperature (Online By myself) version (2)
+   Switching Temperature (Online By myself) version (2)
 
       #include <iostream>
     using namespace std;
@@ -319,59 +384,4 @@ Switch Statement
         }
     }
 
-   Simple Calculator 
-
-      #include <iostream>
-    using namespace std;
-    int main()
-    {
-        int a, b;
-        cout << "Enter two numbers" << endl;
-        cin >> a >> b;
-        cout << "Pick a calculation" << endl;
-        cout << "1: Addition\n2: Subtraction\n3: Multiplication\n4: Division" << endl;
-        int input; 
-        cin >> input;
-          switch (input) {
-          case 1:
-              cout << (a + b);
-              break;
-          case 2:
-              cout << (a - b) << endl;
-              break;
-          case 3: 
-              cout << (a * b) << endl;
-              break;
-          case 4:
-              cout << (a / b) << endl;
-              break;
-          default:
-              cout << "Invalid Input\n";
-          }
-      }
-
-
-  Grouping Cases
-
-        #include <iostream>
-      using namespace std;
-      int main()
-      {
-          cout << "Would you like sugar?" << endl;
-          char input;
-          cin >> input;
-
-          switch (input) {
-          case 'Y':
-          case 'y':
-              cout << "Adding sugar..." << endl;
-              break;
-          case 'N':
-          case 'n':
-              cout << "No sugar requested..." << endl;
-              break;
-          default:
-              cout << "That input was not recodgnised" << endl;
-
-          }
-      }
+  
