@@ -1,4 +1,4 @@
-# L8-Codes
+# LEC-8-Codes
 
 Switch Statement
 
