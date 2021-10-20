@@ -1,6 +1,6 @@
 # LEC-8-Codes
 
-Switch Statement
+//SWITCH STATEMENT 
 
  Simple Calculator 
 
@@ -59,6 +59,7 @@ Switch Statement
           }
       }
 
+//EXERCISE BREAK 
 
 Continue? (Gameplay)
 
@@ -244,7 +245,50 @@ Continue? (Gameplay)
 
 Bonus Exercise: Switch Grade Calculator
 
+     #include<iostream>
+     #include<string>
+     using namespace std;
+     int main()
+     {
+         cout << "Student's name: " << endl;
+         string name;
+         cin >> name;
 
+         cout << "Enter your Grade (between 0 - 100): " << endl;
+         int grade;
+         cin >> grade;
+
+         {
+             switch (grade / 10) {
+             case 10:
+             case 9:
+             case 8:
+                 cout << "Your grade is A" << endl;
+                 break;
+             case 7:
+                 cout << "Your grade is B" << endl;
+                 break;
+             case 6:
+                 cout << "Your grade is C" << endl;
+                 break;
+             case 5:
+                 cout << "Your grade is D" << endl;
+                 break;
+             case 4:
+                 cout << "Your grade is E" << endl;
+                 break;
+             case 3:
+             case 0:
+                 cout << "Your grade is F" << endl;
+                 break;
+             default:
+                 cout << "Invalid output" << endl;
+             }
+         }
+     }
+
+
+//SWITCH STATEMENT PART 2
 
    Switching Temperature (Online By myself) version (1)
 
