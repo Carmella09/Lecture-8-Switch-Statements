@@ -289,7 +289,7 @@ Bonus Exercise: Switch Grade Calculator (The first code I made) version (1)
         }
     }
     
-    Bonus Exercise: Switch Grade Calculator (improved) version (2) (IN PROGRESS)
+Bonus Exercise: Switch Grade Calculator (improved) version (2) (IN PROGRESS)
 
 //SWITCH STATEMENT PART 2
 
