@@ -243,7 +243,7 @@ Continue? (Gameplay)
 
 
 
-Bonus Exercise: Switch Grade Calculator
+Bonus Exercise: Switch Grade Calculator (The first code I made) version (1) 
 
     #include<iostream>
     #include<string>
@@ -288,6 +288,8 @@ Bonus Exercise: Switch Grade Calculator
             }
         }
     }
+    
+    Bonus Exercise: Switch Grade Calculator (improved) version (2) (IN PROGRESS)
 
 //SWITCH STATEMENT PART 2
 
