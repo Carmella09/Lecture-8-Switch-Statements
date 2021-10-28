@@ -289,7 +289,61 @@ Bonus Exercise: Switch Grade Calculator (The first code I made) version (1)
         }
     }
     
-Bonus Exercise: Switch Grade Calculator (improved) version (2) (IN PROGRESS)
+Bonus Exercise: Switch Grade Calculator (improved) version (2)
+
+     #include<iostream>
+     #include<string>
+     using namespace std;
+     int main()
+     {
+         cout << "Student's Full name: " << endl;
+         string name;
+         getline (cin, name);
+
+         cout << "Enter your Grade (between 0 - 100): " << endl;
+         int grade;
+         cin >> grade;
+         if (!cin.fail())
+         {
+             switch (grade / 10) {
+             case 10:
+             case 9:
+             case 8:
+                 cout << "Your grade is A" << endl;
+                 break;
+             case 7:
+                 cout << "Your grade is B" << endl;
+              break;
+          case 6:
+              cout << "Your grade is C" << endl;
+              break;
+          case 5:
+              cout << "Your grade is D" << endl;
+              break;
+          case 4:
+              cout << "Your grade is E" << endl;
+              break;
+          case 3:
+          case 2:
+          case 1:
+          case 0:
+              cout << "Your grade is F" << endl;
+              break;
+          default:
+              cout << "Invalid output" << endl;
+          }
+
+      }
+
+      else if(cin.fail())
+      {
+          cin.clear();
+          cin.ignore(1000, '\n');
+          cout << "Invalid output" << endl;
+
+      }
+  }
+ 
 
 //SWITCH STATEMENT PART 2
 
