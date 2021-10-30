@@ -304,6 +304,7 @@ Bonus Exercise: Switch Grade Calculator (improved) version (2)
          int grade;
          cin >> grade;
          if (!cin.fail())
+         
          {
              switch (grade / 10) {
              case 10:
