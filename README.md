@@ -59,7 +59,7 @@
           }
       }
 
-//EXERCISE BREAK 
+//EXERCISES
 
 Continue? (Gameplay)
 
