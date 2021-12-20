@@ -241,55 +241,8 @@ Continue? (Gameplay)
             cout << "Invalid Input" << endl;
     }
 
-
-
-Bonus Exercise: Switch Grade Calculator (The first code I made) version (1) 
-
-    #include<iostream>
-    #include<string>
-    using namespace std;
-    int main()
-    {
-        cout << "Student's name: " << endl;
-        string name;
-        cin >> name;
-
-        cout << "Enter your Grade (between 0 - 100): " << endl;
-        int grade;
-        cin >> grade;
-
-        {
-            switch (grade / 10) {
-            case 10:
-            case 9:
-            case 8:
-                cout << "Your grade is A" << endl;
-                break;
-            case 7:
-                cout << "Your grade is B" << endl;
-                break;
-            case 6:
-                cout << "Your grade is C" << endl;
-                break;
-            case 5:
-                cout << "Your grade is D" << endl;
-                break;
-            case 4:
-                cout << "Your grade is E" << endl;
-                break;
-            case 3:
-            case 2:
-            case 1:
-                cout << "Your grade is F" << endl;
-                break;
-            default:
-                cout << "Invalid output" << endl;
-                cout << "But if its 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9 your grade is F" << endl;
-            }
-        }
-    }
     
-Bonus Exercise: Switch Grade Calculator (improved) version (2)
+Bonus Exercise: Switch Grade Calculator
 
      #include<iostream>
      #include<string>
@@ -348,36 +301,7 @@ Bonus Exercise: Switch Grade Calculator (improved) version (2)
 
 //SWITCH STATEMENT PART 2
 
-   Switching Temperature (Online By myself) version (1)
-
-      #include <iostream>
-    using namespace std;
-    int main()
-    {
-        double no;
-        cout << "Please write the temperature: " << " " << endl;
-        cin >> no;
-        char temperature;
-        cout << "Enter F to convert from Farenheit " << endl << "Enter C to convert from Celsius " << endl;
-        cin >> temperature;
-
-        switch (temperature) {
-        case 'c':
-        case 'C':
-            cout << (no - 32) * 0.5556;
-            break;
-        case 'f':
-        case 'F':
-            cout << (no * 1.8) + 32;
-            break;
-
-        default:
-            cout << "What? Please try again" << endl;
-        }
-    }
-
-
-   Switching Temperature (Online By myself) version (2)
+   Switching Temperature (Online) 
 
       #include <iostream>
     using namespace std;
